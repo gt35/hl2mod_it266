@@ -1,0 +1,709 @@
+﻿Build started 12/17/2013 11:53:15 PM.
+     1>Project "C:\MyMod\src\game\server\server_hl2mp-2005.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Debug_hl2mp\Server HL2MP.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I.\ /I..\..\game\shared /I..\..\utils\common /I..\..\game\shared\hl2 /I.\hl2 /I.\hl2mp /I..\..\game\shared\hl2mp /I..\..\game\shared\Multiplayer /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WIN32 /D _DEBUG /D DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D GAME_DLL /D VECTOR /D PROTECTED_THINGS_ENABLE /D fopen=dont_use_fopen /D sprintf=use_Q_snprintf_instead_of_sprintf /D strncpy=use_Q_strncpy_instead /D _snprintf=use_Q_snprintf_instead /D HL2MP /D MP_SDK /D HL2_DLL /D VERSION_SAFE_STEAM_API_INTERFACES /D _WINDLL /D _MBCS /GF /Gm /RTC1 /MTd /GS- /fp:fast /Zc:wchar_t /Zc:forScope /GR /Yu"cbase.h" /Fp".\Debug_hl2mp\Server HL2MP.pch" /Fo".\Debug_hl2mp\\" /Fd".\Debug_hl2mp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\shared\basegrenade_shared.cpp ..\shared\hl2mp\weapon_ar2.cpp ..\shared\hl2mp\weapon_frag.cpp ..\shared\hl2mp\weapon_pistol.cpp ..\shared\hl2mp\weapon_rpg.cpp ..\shared\hl2mp\weapon_slam.cpp ..\shared\hl2mp\weapon_smg1.cpp ai_basenpc.cpp basegrenade_concussion.cpp basegrenade_contact.cpp basegrenade_timed.cpp grenadethrown.cpp hl2\cbasehelicopter.cpp hl2\func_tank.cpp hl2\grenade_ar2.cpp hl2\grenade_beam.cpp hl2\grenade_bugbait.cpp hl2\grenade_frag.cpp hl2\grenade_homer.cpp hl2\grenade_pathfollower.cpp hl2\npc_attackchopper.cpp hl2\npc_combine.cpp hl2\npc_launcher.cpp hl2\npc_manhack.cpp hl2\npc_metropolice.cpp hl2\weapon_bugbait.cpp hl2\weapon_cguard.cpp hl2mp\grenade_satchel.cpp hl2mp\grenade_tripmine.cpp hl2mp\hl2mp_player.cpp /MP 
+     1>cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+         grenade_tripmine.cpp
+         weapon_slam.cpp
+         weapon_rpg.cpp
+         weapon_pistol.cpp
+         weapon_frag.cpp
+         weapon_ar2.cpp
+         Generating Code...
+         Compiling...
+         hl2mp_player.cpp
+     1>c:\mymod\src\game\server\hl2mp\hl2mp_player.cpp(7): warning C4627: '#include "weapon_hl2mpbasehlmpcombatweapon.h"': skipped when looking for precompiled header use
+                 Add directive to 'cbase.h' or rebuild precompiled header
+         grenade_satchel.cpp
+         weapon_cguard.cpp
+         weapon_bugbait.cpp
+         npc_metropolice.cpp
+         npc_manhack.cpp
+         npc_launcher.cpp
+         npc_combine.cpp
+         npc_attackchopper.cpp
+         grenade_pathfollower.cpp
+         grenade_homer.cpp
+         grenade_frag.cpp
+         grenade_bugbait.cpp
+         grenade_beam.cpp
+         grenade_ar2.cpp
+         func_tank.cpp
+         cbasehelicopter.cpp
+         grenadethrown.cpp
+         basegrenade_timed.cpp
+         basegrenade_contact.cpp
+         Generating Code...
+         Compiling...
+         basegrenade_concussion.cpp
+         ai_basenpc.cpp
+         weapon_smg1.cpp
+         basegrenade_shared.cpp
+         Generating Code...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I.\ /I..\..\game\shared /I..\..\utils\common /I..\..\game\shared\hl2 /I.\hl2 /I.\hl2mp /I..\..\game\shared\hl2mp /I..\..\game\shared\Multiplayer /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WIN32 /D _DEBUG /D DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D GAME_DLL /D VECTOR /D PROTECTED_THINGS_ENABLE /D fopen=dont_use_fopen /D sprintf=use_Q_snprintf_instead_of_sprintf /D strncpy=use_Q_strncpy_instead /D _snprintf=use_Q_snprintf_instead /D HL2MP /D MP_SDK /D HL2_DLL /D VERSION_SAFE_STEAM_API_INTERFACES /D _WINDLL /D _MBCS /GF /Gm /RTC1 /MTd /GS- /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo".\Debug_hl2mp\\" /Fd".\Debug_hl2mp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\public\bone_setup.cpp ..\..\public\collisionutils.cpp ..\..\public\dt_send.cpp ..\..\public\dt_utlvector_common.cpp ..\..\public\dt_utlvector_send.cpp ..\..\public\editor_sendcommand.cpp ..\..\public\filesystem_helpers.cpp gamehandle.cpp GameStats_BasicStatsFunctions.cpp h_export.cpp init_factory.cpp ..\..\public\interpolatortypes.cpp ..\shared\interval.cpp ..\..\public\keyframe\keyframe.cpp ..\..\public\map_utils.cpp ..\..\public\tier0\memoverride.cpp ..\..\public\networkvar.cpp ..\..\common\randoverride.cpp ..\..\public\registry.cpp ..\..\public\rope_physics.cpp ..\..\public\scratchpad3d.cpp ..\..\public\ScratchPadUtils.cpp ..\..\public\server_class.cpp ..\shared\sheetsimulator.cpp ..\..\public\simple_physics.cpp ..\..\public\stringregistry.cpp ..\..\public\studio.cpp /MP 
+     1>cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+         studio.cpp
+         stringregistry.cpp
+         simple_physics.cpp
+         sheetsimulator.cpp
+         server_class.cpp
+         ScratchPadUtils.cpp
+         scratchpad3d.cpp
+         rope_physics.cpp
+         registry.cpp
+         randoverride.cpp
+         networkvar.cpp
+         memoverride.cpp
+         map_utils.cpp
+         keyframe.cpp
+         interval.cpp
+         interpolatortypes.cpp
+         init_factory.cpp
+         h_export.cpp
+         GameStats_BasicStatsFunctions.cpp
+         gamehandle.cpp
+         Generating Code...
+         Compiling...
+         filesystem_helpers.cpp
+         editor_sendcommand.cpp
+         dt_utlvector_send.cpp
+         dt_utlvector_common.cpp
+         dt_send.cpp
+         collisionutils.cpp
+         bone_setup.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\MyMod\src\game\server\.\Debug_hl2mp\Server HL2MP.dll) does not match the Linker's OutputFile property value (C:\MyMod\src\game\server\Debug_hl2mp\Server.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Server HL2MP) does not match the Linker's OutputFile property value (Server). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug_hl2mp\Server.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\lib\common /LIBPATH:..\..\lib\public winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmt /MANIFEST:NO /DEBUG /PDB:".\Debug_hl2mp\Server HL2MP.pdb" /MAP:".\Debug_hl2mp\Server HL2MP.map" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug_hl2mp\Server HL2MP.lib" /MACHINE:X86 /DLL .\Debug_hl2mp\achievement_saverestore.obj
+         .\Debug_hl2mp\achievementmgr.obj
+         .\Debug_hl2mp\achievements_hlx.obj
+         .\Debug_hl2mp\activitylist.obj
+         .\Debug_hl2mp\ai_activity.obj
+         .\Debug_hl2mp\ai_baseactor.obj
+         .\Debug_hl2mp\ai_basehumanoid.obj
+         .\Debug_hl2mp\ai_basenpc.obj
+         .\Debug_hl2mp\ai_basenpc_flyer.obj
+         .\Debug_hl2mp\ai_basenpc_flyer_new.obj
+         .\Debug_hl2mp\ai_basenpc_movement.obj
+         .\Debug_hl2mp\ai_basenpc_physicsflyer.obj
+         .\Debug_hl2mp\ai_basenpc_schedule.obj
+         .\Debug_hl2mp\ai_basenpc_squad.obj
+         .\Debug_hl2mp\ai_behavior.obj
+         .\Debug_hl2mp\ai_behavior_assault.obj
+         .\Debug_hl2mp\ai_behavior_fear.obj
+         .\Debug_hl2mp\ai_behavior_follow.obj
+         .\Debug_hl2mp\ai_behavior_lead.obj
+         .\Debug_hl2mp\ai_behavior_rappel.obj
+         .\Debug_hl2mp\ai_behavior_standoff.obj
+         .\Debug_hl2mp\ai_blended_movement.obj
+         .\Debug_hl2mp\ai_concommands.obj
+         .\Debug_hl2mp\ai_condition.obj
+         .\Debug_hl2mp\AI_Criteria.obj
+         .\Debug_hl2mp\ai_default.obj
+         .\Debug_hl2mp\ai_dynamiclink.obj
+         .\Debug_hl2mp\ai_event.obj
+         .\Debug_hl2mp\ai_goalentity.obj
+         .\Debug_hl2mp\ai_hint.obj
+         .\Debug_hl2mp\ai_hull.obj
+         .\Debug_hl2mp\ai_initutils.obj
+         .\Debug_hl2mp\AI_Interest_Target.obj
+         .\Debug_hl2mp\ai_link.obj
+         .\Debug_hl2mp\ai_localnavigator.obj
+         .\Debug_hl2mp\ai_looktarget.obj
+         .\Debug_hl2mp\ai_memory.obj
+         .\Debug_hl2mp\ai_motor.obj
+         .\Debug_hl2mp\ai_moveprobe.obj
+         .\Debug_hl2mp\ai_moveshoot.obj
+         .\Debug_hl2mp\ai_movesolver.obj
+         .\Debug_hl2mp\ai_namespaces.obj
+         .\Debug_hl2mp\ai_navigator.obj
+         .\Debug_hl2mp\ai_network.obj
+         .\Debug_hl2mp\ai_networkmanager.obj
+         .\Debug_hl2mp\ai_node.obj
+         .\Debug_hl2mp\ai_pathfinder.obj
+         .\Debug_hl2mp\ai_planesolver.obj
+         .\Debug_hl2mp\ai_playerally.obj
+         .\Debug_hl2mp\ai_relationship.obj
+         .\Debug_hl2mp\AI_ResponseSystem.obj
+         .\Debug_hl2mp\ai_route.obj
+         .\Debug_hl2mp\ai_saverestore.obj
+         .\Debug_hl2mp\ai_schedule.obj
+         .\Debug_hl2mp\ai_scriptconditions.obj
+         .\Debug_hl2mp\ai_senses.obj
+         .\Debug_hl2mp\ai_sentence.obj
+         .\Debug_hl2mp\ai_speech.obj
+         .\Debug_hl2mp\ai_speechfilter.obj
+         .\Debug_hl2mp\ai_squad.obj
+         .\Debug_hl2mp\ai_squadslot.obj
+         .\Debug_hl2mp\ai_tacticalservices.obj
+         .\Debug_hl2mp\ai_task.obj
+         .\Debug_hl2mp\ai_trackpather.obj
+         .\Debug_hl2mp\ai_utils.obj
+         .\Debug_hl2mp\ai_waypoint.obj
+         .\Debug_hl2mp\ammodef.obj
+         .\Debug_hl2mp\animation.obj
+         .\Debug_hl2mp\base_playeranimstate.obj
+         .\Debug_hl2mp\base_transmit_proxy.obj
+         .\Debug_hl2mp\baseachievement.obj
+         .\Debug_hl2mp\baseanimating.obj
+         .\Debug_hl2mp\BaseAnimatingOverlay.obj
+         .\Debug_hl2mp\basecombatcharacter.obj
+         .\Debug_hl2mp\basecombatcharacter_shared.obj
+         .\Debug_hl2mp\basecombatweapon.obj
+         .\Debug_hl2mp\basecombatweapon_shared.obj
+         .\Debug_hl2mp\baseentity.obj
+         .\Debug_hl2mp\baseentity_shared.obj
+         .\Debug_hl2mp\baseflex.obj
+         .\Debug_hl2mp\basegrenade_concussion.obj
+         .\Debug_hl2mp\basegrenade_contact.obj
+         .\Debug_hl2mp\basegrenade_shared.obj
+         .\Debug_hl2mp\basegrenade_timed.obj
+         .\Debug_hl2mp\basemultiplayerplayer.obj
+         .\Debug_hl2mp\baseparticleentity.obj
+         .\Debug_hl2mp\baseplayer_shared.obj
+         .\Debug_hl2mp\baseviewmodel.obj
+         .\Debug_hl2mp\baseviewmodel_shared.obj
+         .\Debug_hl2mp\beam_shared.obj
+         .\Debug_hl2mp\bitstring.obj
+         .\Debug_hl2mp\bmodels.obj
+         .\Debug_hl2mp\bone_setup.obj
+         .\Debug_hl2mp\buttons.obj
+         .\Debug_hl2mp\cbase.obj
+         .\Debug_hl2mp\client.obj
+         .\Debug_hl2mp\collisionproperty.obj
+         .\Debug_hl2mp\collisionutils.obj
+         .\Debug_hl2mp\colorcorrection.obj
+         .\Debug_hl2mp\colorcorrectionvolume.obj
+         .\Debug_hl2mp\CommentarySystem.obj
+         .\Debug_hl2mp\controlentities.obj
+         .\Debug_hl2mp\cplane.obj
+         .\Debug_hl2mp\CRagdollMagnet.obj
+         .\Debug_hl2mp\damagemodifier.obj
+         .\Debug_hl2mp\death_pose.obj
+         .\Debug_hl2mp\debugoverlay_shared.obj
+         .\Debug_hl2mp\decals.obj
+         .\Debug_hl2mp\doors.obj
+         .\Debug_hl2mp\dt_send.obj
+         .\Debug_hl2mp\dt_utlvector_common.obj
+         .\Debug_hl2mp\dt_utlvector_send.obj
+         .\Debug_hl2mp\dynamiclight.obj
+         .\Debug_hl2mp\editor_sendcommand.obj
+         .\Debug_hl2mp\effect_dispatch_data.obj
+         .\Debug_hl2mp\effects.obj
+         .\Debug_hl2mp\EffectsServer.obj
+         .\Debug_hl2mp\ehandle.obj
+         .\Debug_hl2mp\entityblocker.obj
+         .\Debug_hl2mp\EntityDissolve.obj
+         .\Debug_hl2mp\EntityFlame.obj
+         .\Debug_hl2mp\entitylist.obj
+         .\Debug_hl2mp\entitylist_base.obj
+         .\Debug_hl2mp\EntityParticleTrail.obj
+         .\Debug_hl2mp\EntityParticleTrail_Shared.obj
+         .\Debug_hl2mp\env_debughistory.obj
+         .\Debug_hl2mp\env_detail_controller.obj
+         .\Debug_hl2mp\env_effectsscript.obj
+         .\Debug_hl2mp\env_entity_maker.obj
+         .\Debug_hl2mp\env_particlescript.obj
+         .\Debug_hl2mp\env_player_surface_trigger.obj
+         .\Debug_hl2mp\env_projectedtexture.obj
+         .\Debug_hl2mp\env_screenoverlay.obj
+         .\Debug_hl2mp\env_texturetoggle.obj
+         .\Debug_hl2mp\env_tonemap_controller.obj
+         .\Debug_hl2mp\env_wind_shared.obj
+         .\Debug_hl2mp\env_zoom.obj
+         .\Debug_hl2mp\EnvBeam.obj
+         .\Debug_hl2mp\EnvFade.obj
+         .\Debug_hl2mp\EnvHudHint.obj
+         .\Debug_hl2mp\EnvLaser.obj
+         .\Debug_hl2mp\EnvMessage.obj
+         .\Debug_hl2mp\envmicrophone.obj
+         .\Debug_hl2mp\EnvShake.obj
+         .\Debug_hl2mp\EnvSpark.obj
+         .\Debug_hl2mp\eventlist.obj
+         .\Debug_hl2mp\EventLog.obj
+         .\Debug_hl2mp\explode.obj
+         .\Debug_hl2mp\filesystem_helpers.obj
+         .\Debug_hl2mp\filters.obj
+         .\Debug_hl2mp\fire.obj
+         .\Debug_hl2mp\fire_smoke.obj
+         .\Debug_hl2mp\fish.obj
+         .\Debug_hl2mp\fogcontroller.obj
+         .\Debug_hl2mp\fourwheelvehiclephysics.obj
+         .\Debug_hl2mp\func_areaportal.obj
+         .\Debug_hl2mp\func_areaportalbase.obj
+         .\Debug_hl2mp\func_areaportalwindow.obj
+         .\Debug_hl2mp\func_break.obj
+         .\Debug_hl2mp\func_breakablesurf.obj
+         .\Debug_hl2mp\func_dust.obj
+         .\Debug_hl2mp\func_ladder.obj
+         .\Debug_hl2mp\func_ladder_endpoint.obj
+         .\Debug_hl2mp\func_lod.obj
+         .\Debug_hl2mp\Func_Monitor.obj
+         .\Debug_hl2mp\func_movelinear.obj
+         .\Debug_hl2mp\func_occluder.obj
+         .\Debug_hl2mp\func_reflective_glass.obj
+         .\Debug_hl2mp\func_smokevolume.obj
+         .\Debug_hl2mp\game.obj
+         .\Debug_hl2mp\game_ui.obj
+         .\Debug_hl2mp\gamehandle.obj
+         .\Debug_hl2mp\gameinterface.obj
+         .\Debug_hl2mp\gamemovement.obj
+         .\Debug_hl2mp\gamerules.obj
+         .\Debug_hl2mp\gamerules_register.obj
+         .\Debug_hl2mp\GameStats.obj
+         .\Debug_hl2mp\GameStats_BasicStatsFunctions.obj
+         .\Debug_hl2mp\gamestringpool.obj
+         .\Debug_hl2mp\gametrace_dll.obj
+         .\Debug_hl2mp\gamevars_shared.obj
+         .\Debug_hl2mp\gameweaponmanager.obj
+         .\Debug_hl2mp\genericactor.obj
+         .\Debug_hl2mp\genericmonster.obj
+         .\Debug_hl2mp\gib.obj
+         .\Debug_hl2mp\globals.obj
+         .\Debug_hl2mp\globalstate.obj
+         .\Debug_hl2mp\grenadethrown.obj
+         .\Debug_hl2mp\guntarget.obj
+         .\Debug_hl2mp\h_ai.obj
+         .\Debug_hl2mp\h_cycler.obj
+         .\Debug_hl2mp\h_export.obj
+         .\Debug_hl2mp\hierarchy.obj
+         .\Debug_hl2mp\hintmessage.obj
+         .\Debug_hl2mp\hintsystem.obj
+         .\Debug_hl2mp\hltvdirector.obj
+         .\Debug_hl2mp\igamesystem.obj
+         .\Debug_hl2mp\info_camera_link.obj
+         .\Debug_hl2mp\info_overlay_accessor.obj
+         .\Debug_hl2mp\init_factory.obj
+         .\Debug_hl2mp\intermission.obj
+         .\Debug_hl2mp\interpolatortypes.obj
+         .\Debug_hl2mp\interval.obj
+         .\Debug_hl2mp\item_world.obj
+         .\Debug_hl2mp\keyframe.obj
+         .\Debug_hl2mp\lightglow.obj
+         .\Debug_hl2mp\lights.obj
+         .\Debug_hl2mp\logic_measure_movement.obj
+         .\Debug_hl2mp\logic_navigation.obj
+         .\Debug_hl2mp\logicauto.obj
+         .\Debug_hl2mp\logicentities.obj
+         .\Debug_hl2mp\logicrelay.obj
+         .\Debug_hl2mp\map_utils.obj
+         .\Debug_hl2mp\mapentities.obj
+         .\Debug_hl2mp\mapentities_shared.obj
+         .\Debug_hl2mp\maprules.obj
+         .\Debug_hl2mp\MaterialModifyControl.obj
+         .\Debug_hl2mp\memoverride.obj
+         .\Debug_hl2mp\message_entity.obj
+         .\Debug_hl2mp\modelentities.obj
+         .\Debug_hl2mp\ModelSoundsCache.obj
+         .\Debug_hl2mp\monstermaker.obj
+         .\Debug_hl2mp\movehelper_server.obj
+         .\Debug_hl2mp\movement.obj
+         .\Debug_hl2mp\movevars_shared.obj
+         .\Debug_hl2mp\mp_shareddefs.obj
+         .\Debug_hl2mp\multiplay_gamerules.obj
+         .\Debug_hl2mp\nav_area.obj
+         .\Debug_hl2mp\nav_colors.obj
+         .\Debug_hl2mp\nav_edit.obj
+         .\Debug_hl2mp\nav_file.obj
+         .\Debug_hl2mp\nav_generate.obj
+         .\Debug_hl2mp\nav_ladder.obj
+         .\Debug_hl2mp\nav_mesh.obj
+         .\Debug_hl2mp\nav_node.obj
+         .\Debug_hl2mp\ndebugoverlay.obj
+         .\Debug_hl2mp\networkvar.obj
+         .\Debug_hl2mp\npc_vehicledriver.obj
+         .\Debug_hl2mp\obstacle_pushaway.obj
+         .\Debug_hl2mp\particle_light.obj
+         .\Debug_hl2mp\particle_parse.obj
+         .\Debug_hl2mp\particle_system.obj
+         .\Debug_hl2mp\particlesystemquery.obj
+         .\Debug_hl2mp\pathcorner.obj
+         .\Debug_hl2mp\pathtrack.obj
+         .\Debug_hl2mp\phys_controller.obj
+         .\Debug_hl2mp\physconstraint.obj
+         .\Debug_hl2mp\physics.obj
+         .\Debug_hl2mp\physics_bone_follower.obj
+         .\Debug_hl2mp\physics_cannister.obj
+         .\Debug_hl2mp\physics_fx.obj
+         .\Debug_hl2mp\physics_impact_damage.obj
+         .\Debug_hl2mp\physics_main.obj
+         .\Debug_hl2mp\physics_main_shared.obj
+         .\Debug_hl2mp\physics_npc_solver.obj
+         .\Debug_hl2mp\physics_prop_ragdoll.obj
+         .\Debug_hl2mp\physics_saverestore.obj
+         .\Debug_hl2mp\physics_shared.obj
+         .\Debug_hl2mp\physobj.obj
+         .\Debug_hl2mp\player.obj
+         .\Debug_hl2mp\player_command.obj
+         .\Debug_hl2mp\player_lagcompensation.obj
+         .\Debug_hl2mp\player_pickup.obj
+         .\Debug_hl2mp\player_resource.obj
+         .\Debug_hl2mp\playerlocaldata.obj
+         .\Debug_hl2mp\plugin_check.obj
+         .\Debug_hl2mp\point_bonusmaps_accessor.obj
+         .\Debug_hl2mp\point_camera.obj
+         .\Debug_hl2mp\point_devshot_camera.obj
+         .\Debug_hl2mp\point_playermoveconstraint.obj
+         .\Debug_hl2mp\point_posecontroller.obj
+         .\Debug_hl2mp\point_spotlight.obj
+         .\Debug_hl2mp\point_template.obj
+         .\Debug_hl2mp\pointanglesensor.obj
+         .\Debug_hl2mp\PointAngularVelocitySensor.obj
+         .\Debug_hl2mp\pointhurt.obj
+         .\Debug_hl2mp\pointteleport.obj
+         .\Debug_hl2mp\precache_register.obj
+         .\Debug_hl2mp\predictableid.obj
+         .\Debug_hl2mp\predicted_viewmodel.obj
+         .\Debug_hl2mp\props.obj
+         .\Debug_hl2mp\props_shared.obj
+         .\Debug_hl2mp\ragdoll_manager.obj
+         .\Debug_hl2mp\ragdoll_shared.obj
+         .\Debug_hl2mp\RagdollBoogie.obj
+         .\Debug_hl2mp\randoverride.obj
+         .\Debug_hl2mp\recipientfilter.obj
+         .\Debug_hl2mp\registry.obj
+         .\Debug_hl2mp\rope.obj
+         .\Debug_hl2mp\rope_helpers.obj
+         .\Debug_hl2mp\rope_physics.obj
+         .\Debug_hl2mp\saverestore.obj
+         .\Debug_hl2mp\saverestore_gamedll.obj
+         .\Debug_hl2mp\SceneCache.obj
+         .\Debug_hl2mp\sceneentity.obj
+         .\Debug_hl2mp\sceneentity_shared.obj
+         .\Debug_hl2mp\scratchpad3d.obj
+         .\Debug_hl2mp\scratchpad_gamedll_helpers.obj
+         .\Debug_hl2mp\ScratchPadUtils.obj
+         .\Debug_hl2mp\scripted.obj
+         .\Debug_hl2mp\scriptedtarget.obj
+         .\Debug_hl2mp\sendproxy.obj
+         .\Debug_hl2mp\sequence_Transitioner.obj
+         .\Debug_hl2mp\server_class.obj
+         .\Debug_hl2mp\serverbenchmark_base.obj
+         .\Debug_hl2mp\ServerNetworkProperty.obj
+         .\Debug_hl2mp\shadowcontrol.obj
+         .\Debug_hl2mp\sheetsimulator.obj
+         .\Debug_hl2mp\simple_physics.obj
+         .\Debug_hl2mp\simtimer.obj
+         .\Debug_hl2mp\singleplay_gamerules.obj
+         .\Debug_hl2mp\SkyCamera.obj
+         .\Debug_hl2mp\slideshow_display.obj
+         .\Debug_hl2mp\sound.obj
+         .\Debug_hl2mp\SoundEmitterSystem.obj
+         .\Debug_hl2mp\soundent.obj
+         .\Debug_hl2mp\soundenvelope.obj
+         .\Debug_hl2mp\SoundParametersInternal.obj
+         .\Debug_hl2mp\soundscape.obj
+         .\Debug_hl2mp\soundscape_system.obj
+         .\Debug_hl2mp\spotlightend.obj
+         .\Debug_hl2mp\Sprite.obj
+         .\Debug_hl2mp\sprite_perfmonitor.obj
+         .\Debug_hl2mp\stringregistry.obj
+         .\Debug_hl2mp\studio.obj
+         .\Debug_hl2mp\studio_shared.obj
+         .\Debug_hl2mp\subs.obj
+         .\Debug_hl2mp\sun.obj
+         .\Debug_hl2mp\survival_gamerules.obj
+         .\Debug_hl2mp\takedamageinfo.obj
+         .\Debug_hl2mp\tanktrain.obj
+         .\Debug_hl2mp\team.obj
+         .\Debug_hl2mp\team_spawnpoint.obj
+         .\Debug_hl2mp\teamplay_gamerules.obj
+         .\Debug_hl2mp\TemplateEntities.obj
+         .\Debug_hl2mp\tempmonster.obj
+         .\Debug_hl2mp\tesla.obj
+         .\Debug_hl2mp\test_ehandle.obj
+         .\Debug_hl2mp\test_proxytoggle.obj
+         .\Debug_hl2mp\test_stressentities.obj
+         .\Debug_hl2mp\testfunctions.obj
+         .\Debug_hl2mp\testtraceline.obj
+         .\Debug_hl2mp\textstatsmgr.obj
+         .\Debug_hl2mp\timedeventmgr.obj
+         .\Debug_hl2mp\trains.obj
+         .\Debug_hl2mp\triggers.obj
+         .\Debug_hl2mp\usercmd.obj
+         .\Debug_hl2mp\util.obj
+         .\Debug_hl2mp\util_shared.obj
+         .\Debug_hl2mp\variant_t.obj
+         .\Debug_hl2mp\vehicle_base.obj
+         .\Debug_hl2mp\vehicle_baseserver.obj
+         .\Debug_hl2mp\vehicle_viewblend_shared.obj
+         .\Debug_hl2mp\vguiscreen.obj
+         .\Debug_hl2mp\voice_gamemgr.obj
+         .\Debug_hl2mp\waterbullet.obj
+         .\Debug_hl2mp\WaterLODControl.obj
+         .\Debug_hl2mp\wcedit.obj
+         .\Debug_hl2mp\weapon_parse.obj
+         .\Debug_hl2mp\weapon_proficiency.obj
+         .\Debug_hl2mp\weight_button.obj
+         .\Debug_hl2mp\world.obj
+         .\Debug_hl2mp\stdafx.obj
+         .\Debug_hl2mp\basetempentity.obj
+         .\Debug_hl2mp\event_tempentity_tester.obj
+         .\Debug_hl2mp\movie_explosion.obj
+         .\Debug_hl2mp\particle_fire.obj
+         .\Debug_hl2mp\particle_smokegrenade.obj
+         .\Debug_hl2mp\plasma.obj
+         .\Debug_hl2mp\smoke_trail.obj
+         .\Debug_hl2mp\smokestack.obj
+         .\Debug_hl2mp\SpriteTrail.obj
+         .\Debug_hl2mp\steamjet.obj
+         .\Debug_hl2mp\te.obj
+         .\Debug_hl2mp\te_armorricochet.obj
+         .\Debug_hl2mp\te_basebeam.obj
+         .\Debug_hl2mp\te_beamentpoint.obj
+         .\Debug_hl2mp\te_beaments.obj
+         .\Debug_hl2mp\te_beamfollow.obj
+         .\Debug_hl2mp\te_beamlaser.obj
+         .\Debug_hl2mp\te_beampoints.obj
+         .\Debug_hl2mp\te_beamring.obj
+         .\Debug_hl2mp\te_beamringpoint.obj
+         .\Debug_hl2mp\te_beamspline.obj
+         .\Debug_hl2mp\te_bloodsprite.obj
+         .\Debug_hl2mp\te_bloodstream.obj
+         .\Debug_hl2mp\te_breakmodel.obj
+         .\Debug_hl2mp\te_bspdecal.obj
+         .\Debug_hl2mp\te_bubbles.obj
+         .\Debug_hl2mp\te_bubbletrail.obj
+         .\Debug_hl2mp\te_clientprojectile.obj
+         .\Debug_hl2mp\te_decal.obj
+         .\Debug_hl2mp\te_dynamiclight.obj
+         .\Debug_hl2mp\te_effect_dispatch.obj
+         .\Debug_hl2mp\te_energysplash.obj
+         .\Debug_hl2mp\te_explosion.obj
+         .\Debug_hl2mp\te_fizz.obj
+         .\Debug_hl2mp\te_footprintdecal.obj
+         .\Debug_hl2mp\te_gaussexplosion.obj
+         .\Debug_hl2mp\te_glassshatter.obj
+         .\Debug_hl2mp\te_glowsprite.obj
+         .\Debug_hl2mp\te_impact.obj
+         .\Debug_hl2mp\te_killplayerattachments.obj
+         .\Debug_hl2mp\te_largefunnel.obj
+         .\Debug_hl2mp\te_muzzleflash.obj
+         .\Debug_hl2mp\te_particlesystem.obj
+         .\Debug_hl2mp\te_physicsprop.obj
+         .\Debug_hl2mp\te_playerdecal.obj
+         .\Debug_hl2mp\te_projecteddecal.obj
+         .\Debug_hl2mp\te_showline.obj
+         .\Debug_hl2mp\te_smoke.obj
+         .\Debug_hl2mp\te_sparks.obj
+         .\Debug_hl2mp\te_sprite.obj
+         .\Debug_hl2mp\te_spritespray.obj
+         .\Debug_hl2mp\te_worlddecal.obj
+         .\Debug_hl2mp\usermessages.obj
+         .\Debug_hl2mp\ai_allymanager.obj
+         .\Debug_hl2mp\ai_behavior_actbusy.obj
+         .\Debug_hl2mp\ai_behavior_functank.obj
+         .\Debug_hl2mp\ai_behavior_holster.obj
+         .\Debug_hl2mp\ai_behavior_police.obj
+         .\Debug_hl2mp\ai_goal_police.obj
+         .\Debug_hl2mp\ai_spotlight.obj
+         .\Debug_hl2mp\antlion_dust.obj
+         .\Debug_hl2mp\antlion_maker.obj
+         .\Debug_hl2mp\ar2_explosion.obj
+         .\Debug_hl2mp\basebludgeonweapon.obj
+         .\Debug_hl2mp\basehlcombatweapon.obj
+         .\Debug_hl2mp\basehlcombatweapon_shared.obj
+         .\Debug_hl2mp\cbasehelicopter.obj
+         .\Debug_hl2mp\cbasespriteprojectile.obj
+         .\Debug_hl2mp\citadel_effects.obj
+         .\Debug_hl2mp\combine_mine.obj
+         .\Debug_hl2mp\env_alyxemp.obj
+         .\Debug_hl2mp\env_headcrabcanister.obj
+         .\Debug_hl2mp\env_headcrabcanister_shared.obj
+         .\Debug_hl2mp\env_speaker.obj
+         .\Debug_hl2mp\env_starfield.obj
+         .\Debug_hl2mp\func_recharge.obj
+         .\Debug_hl2mp\func_tank.obj
+         .\Debug_hl2mp\grenade_ar2.obj
+         .\Debug_hl2mp\grenade_bugbait.obj
+         .\Debug_hl2mp\grenade_frag.obj
+         .\Debug_hl2mp\hl2_ai_network.obj
+         .\Debug_hl2mp\hl2_eventlog.obj
+         .\Debug_hl2mp\hl2_gamerules.obj
+         .\Debug_hl2mp\hl2_player.obj
+         .\Debug_hl2mp\hl2_playerlocaldata.obj
+         .\Debug_hl2mp\hl2_triggers.obj
+         .\Debug_hl2mp\hl2_usermessages.obj
+         .\Debug_hl2mp\hl_gamemovement.obj
+         .\Debug_hl2mp\hl_playermove.obj
+         .\Debug_hl2mp\info_teleporter_countdown.obj
+         .\Debug_hl2mp\item_ammo.obj
+         .\Debug_hl2mp\item_battery.obj
+         .\Debug_hl2mp\item_dynamic_resupply.obj
+         .\Debug_hl2mp\item_healthkit.obj
+         .\Debug_hl2mp\item_itemcrate.obj
+         .\Debug_hl2mp\item_suit.obj
+         .\Debug_hl2mp\look_door.obj
+         .\Debug_hl2mp\monster_dummy.obj
+         .\Debug_hl2mp\npc_alyx.obj
+         .\Debug_hl2mp\npc_antlion.obj
+         .\Debug_hl2mp\npc_antlionguard.obj
+         .\Debug_hl2mp\npc_apcdriver.obj
+         .\Debug_hl2mp\npc_attackchopper.obj
+         .\Debug_hl2mp\npc_barnacle.obj
+         .\Debug_hl2mp\npc_barney.obj
+         .\Debug_hl2mp\npc_basescanner.obj
+         .\Debug_hl2mp\npc_BaseZombie.obj
+         .\Debug_hl2mp\npc_breen.obj
+         .\Debug_hl2mp\npc_bullseye.obj
+         .\Debug_hl2mp\npc_citizen17.obj
+         .\Debug_hl2mp\npc_combine.obj
+         .\Debug_hl2mp\npc_combinecamera.obj
+         .\Debug_hl2mp\npc_combinedropship.obj
+         .\Debug_hl2mp\npc_combinegunship.obj
+         .\Debug_hl2mp\npc_combines.obj
+         .\Debug_hl2mp\npc_cranedriver.obj
+         .\Debug_hl2mp\npc_crow.obj
+         .\Debug_hl2mp\npc_dog.obj
+         .\Debug_hl2mp\npc_eli.obj
+         .\Debug_hl2mp\npc_enemyfinder.obj
+         .\Debug_hl2mp\npc_fisherman.obj
+         .\Debug_hl2mp\npc_gman.obj
+         .\Debug_hl2mp\npc_headcrab.obj
+         .\Debug_hl2mp\npc_ichthyosaur.obj
+         .\Debug_hl2mp\npc_kleiner.obj
+         .\Debug_hl2mp\npc_launcher.obj
+         .\Debug_hl2mp\npc_manhack.obj
+         .\Debug_hl2mp\npc_metropolice.obj
+         .\Debug_hl2mp\npc_monk.obj
+         .\Debug_hl2mp\npc_mossman.obj
+         .\Debug_hl2mp\npc_playercompanion.obj
+         .\Debug_hl2mp\npc_PoisonZombie.obj
+         .\Debug_hl2mp\npc_rollermine.obj
+         .\Debug_hl2mp\npc_scanner.obj
+         .\Debug_hl2mp\npc_stalker.obj
+         .\Debug_hl2mp\npc_strider.obj
+         .\Debug_hl2mp\npc_talker.obj
+         .\Debug_hl2mp\npc_turret_ceiling.obj
+         .\Debug_hl2mp\npc_turret_floor.obj
+         .\Debug_hl2mp\npc_turret_ground.obj
+         .\Debug_hl2mp\npc_vortigaunt_episodic.obj
+         .\Debug_hl2mp\npc_zombie.obj
+         .\Debug_hl2mp\point_apc_controller.obj
+         .\Debug_hl2mp\prop_combine_ball.obj
+         .\Debug_hl2mp\prop_thumper.obj
+         .\Debug_hl2mp\proto_sniper.obj
+         .\Debug_hl2mp\rotorwash.obj
+         .\Debug_hl2mp\script_intro.obj
+         .\Debug_hl2mp\script_intro_shared.obj
+         .\Debug_hl2mp\vehicle_airboat.obj
+         .\Debug_hl2mp\vehicle_crane.obj
+         .\Debug_hl2mp\vehicle_prisoner_pod.obj
+         .\Debug_hl2mp\vehicle_viewcontroller.obj
+         .\Debug_hl2mp\weapon_annabelle.obj
+         .\Debug_hl2mp\weapon_bugbait.obj
+         .\Debug_hl2mp\weapon_cubemap.obj
+         .\Debug_hl2mp\grenade_beam.obj
+         .\Debug_hl2mp\grenade_homer.obj
+         .\Debug_hl2mp\grenade_pathfollower.obj
+         .\Debug_hl2mp\vehicle_apc.obj
+         .\Debug_hl2mp\weapon_cguard.obj
+         .\Debug_hl2mp\weapon_flaregun.obj
+         .\Debug_hl2mp\hl2mp_bot_temp.obj
+         .\Debug_hl2mp\hl2mp_client.obj
+         .\Debug_hl2mp\hl2mp_cvars.obj
+         .\Debug_hl2mp\hl2mp_gameinterface.obj
+         .\Debug_hl2mp\hl2mp_gamerules.obj
+         .\Debug_hl2mp\hl2mp_player.obj
+         .\Debug_hl2mp\hl2mp_player_shared.obj
+         .\Debug_hl2mp\hl2mp_playeranimstate.obj
+         .\Debug_hl2mp\hl2mp_weapon_parse.obj
+         .\Debug_hl2mp\grenade_satchel.obj
+         .\Debug_hl2mp\grenade_tripmine.obj
+         .\Debug_hl2mp\te_hl2mp_shotgun_shot.obj
+         .\Debug_hl2mp\weapon_357.obj
+         .\Debug_hl2mp\weapon_ar2.obj
+         .\Debug_hl2mp\weapon_crossbow.obj
+         .\Debug_hl2mp\weapon_crowbar.obj
+         .\Debug_hl2mp\weapon_frag.obj
+         .\Debug_hl2mp\weapon_hl2mpbase.obj
+         .\Debug_hl2mp\weapon_hl2mpbase_machinegun.obj
+         .\Debug_hl2mp\weapon_hl2mpbasebasebludgeon.obj
+         .\Debug_hl2mp\weapon_hl2mpbasehlmpcombatweapon.obj
+         .\Debug_hl2mp\weapon_physcannon.obj
+         .\Debug_hl2mp\weapon_pistol.obj
+         .\Debug_hl2mp\weapon_rpg.obj
+         .\Debug_hl2mp\weapon_shotgun.obj
+         .\Debug_hl2mp\weapon_slam.obj
+         .\Debug_hl2mp\weapon_smg1.obj
+         .\Debug_hl2mp\weapon_stunstick.obj
+         .\Debug_hl2mp\playerinfomanager.obj
+         .\Debug_hl2mp\multiplayer_animstate.obj
+         .\Debug_hl2mp\entity_tools_server.obj
+         .\Debug_hl2mp\toolframework_server.obj
+         ..\..\lib\public\choreoobjects.lib
+         ..\..\lib\public\dmxloader.lib
+         ..\..\lib\public\mathlib.lib
+         ..\..\lib\public\particles.lib
+         ..\..\lib\public\steam_api.lib
+         ..\..\lib\public\tier0.lib
+         ..\..\lib\public\tier1.lib
+         ..\..\lib\public\tier2.lib
+         ..\..\lib\public\tier3.lib
+         ..\..\lib\public\vstdlib.lib
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __malloc_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __nh_malloc already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __nh_malloc_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __heap_alloc already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __heap_alloc_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __calloc_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __recalloc already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __realloc_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __recalloc_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __expand already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __expand_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __free_nolock already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __free_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __free_dbg_nolock already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __msize already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __msize_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtSetBreakAlloc already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtSetDbgBlockType already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtSetAllocHook already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtGetAllocHook already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtCheckMemory already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtSetDbgFlag already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtDoForAllClientObjects already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtIsValidPointer already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtIsValidHeapPointer already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtIsMemoryBlock already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtReportBlockType already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtSetDumpClient already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtGetDumpClient already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtMemCheckpoint already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtMemDifference already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtMemDumpAllObjectsSince already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtDumpMemoryLeaks already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtMemDumpStatistics already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_malloc already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_malloc_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_realloc already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_recalloc already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_realloc_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_recalloc_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_offset_malloc already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_offset_malloc_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_offset_realloc already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_offset_recalloc already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_offset_realloc_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_offset_recalloc_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_free already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_free_dbg already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtSetDebugFillThreshold already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtSetCheckCount already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __CrtGetCheckCount already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __crtDbgFlag already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: ___crtDebugFillThreshold already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: ___crtDebugCheckCount already defined in memoverride.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __crtBreakAlloc already defined in memoverride.obj
+            Creating library .\Debug_hl2mp\Server HL2MP.lib and object .\Debug_hl2mp\Server HL2MP.exp
+     1>.\Debug_hl2mp\Server.dll : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "C:\MyMod\src\game\server\server_hl2mp-2005.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:24.34

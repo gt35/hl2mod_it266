@@ -1,4 +1,4 @@
-hl2mod_it266: Half Life 2 DM : Michael Bay & John Woo Edition
+Half Life 2 DM : Michael Bay & John Woo Edition
 ============
 -All bullets explode<br>
 -SMG has a ridiculous fire rate<br><br>

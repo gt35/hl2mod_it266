@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -191,7 +191,7 @@ void CWeaponPistol::DoImpactEffect( trace_t &tr, int nDamageType ) // gt35 added
 	data.m_vOrigin = tr.endpos + ( tr.plane.normal * 1.0f );
 	data.m_vNormal = tr.plane.normal;
 
-	DispatchEffect( "cball_explode", data );//GT35 sparks
+	DispatchEffect( "cball_explode", data );//GT35 sparks //-jdr22 interesting spark effect
 
 	BaseClass::DoImpactEffect( tr, nDamageType );
 }

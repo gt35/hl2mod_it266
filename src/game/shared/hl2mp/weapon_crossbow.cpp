@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -30,7 +30,7 @@
 //#define BOLT_MODEL			"models/crossbow_bolt.mdl"
 #define BOLT_MODEL	"models/weapons/w_missile_closed.mdl"
 
-#define BOLT_AIR_VELOCITY	3500//gt35 super fast bolts
+#define BOLT_AIR_VELOCITY	3500//gt35 super fast bolts //-jdr22 new velocity kinda takes away from projectile nature but makes it more extreme
 #define BOLT_WATER_VELOCITY	1500
 #define	BOLT_SKIN_NORMAL	0
 #define BOLT_SKIN_GLOW		1

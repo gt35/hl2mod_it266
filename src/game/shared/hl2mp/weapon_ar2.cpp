@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose:
 //
@@ -152,7 +152,7 @@ void CWeaponAR2::DoImpactEffect( trace_t &tr, int nDamageType )
 	data.m_vOrigin = tr.endpos + ( tr.plane.normal * 1.0f );
 	data.m_vNormal = tr.plane.normal;
 
-	DispatchEffect( "Explosion", data );//GT35 EXPLOSIONNNNNNNNNNNS
+	DispatchEffect( "Explosion", data );//GT35 EXPLOSIONNNNNNNNNNNS //-jdr22 explosions looking good with the AR
 	BaseClass::DoImpactEffect( tr, nDamageType );
 }
 

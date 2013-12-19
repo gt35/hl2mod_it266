@@ -1,12 +1,10 @@
-﻿Build started 12/18/2013 3:10:18 AM.
+﻿Build started 12/18/2013 8:24:57 PM.
      1>Project "C:\MyMod\src\game\client\client_hl2mp-2005.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating ".\Release_hl2mp\Client HL2MP.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\ /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\..\vgui2\include /I..\..\vgui2\controls /I..\..\game\shared /I.\game_controls /Ihl2mp\UI /I.\hl2mp /I..\..\game\shared\hl2mp /I.\hl2 /I.\hl2\elements /I..\..\game\shared\hl2 /I..\..\game\shared\Multiplayer /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D NO_STRING_T /D CLIENT_DLL /D VECTOR /D PROTECTED_THINGS_ENABLE /D fopen=dont_use_fopen /D strncpy=use_Q_strncpy_instead /D _snprintf=use_Q_snprintf_instead /D ENABLE_HTMLWINDOW /D HL2MP /D HL2_CLIENT_DLL /D VERSION_SAFE_STEAM_API_INTERFACES /D MP_SDK /D _WINDLL /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /Yu"cbase.h" /Fp".\Release_hl2mp\client.pch" /Fo".\Release_hl2mp\\" /Fd".\Release_hl2mp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\shared\baseentity_shared.cpp ..\shared\hl2mp\weapon_pistol.cpp ..\shared\hl2mp\weapon_smg1.cpp /MP 
-         baseentity_shared.cpp
-         weapon_pistol.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\ /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\..\vgui2\include /I..\..\vgui2\controls /I..\..\game\shared /I.\game_controls /Ihl2mp\UI /I.\hl2mp /I..\..\game\shared\hl2mp /I.\hl2 /I.\hl2\elements /I..\..\game\shared\hl2 /I..\..\game\shared\Multiplayer /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D NO_STRING_T /D CLIENT_DLL /D VECTOR /D PROTECTED_THINGS_ENABLE /D fopen=dont_use_fopen /D strncpy=use_Q_strncpy_instead /D _snprintf=use_Q_snprintf_instead /D ENABLE_HTMLWINDOW /D HL2MP /D HL2_CLIENT_DLL /D VERSION_SAFE_STEAM_API_INTERFACES /D MP_SDK /D _WINDLL /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /Yu"cbase.h" /Fp".\Release_hl2mp\client.pch" /Fo".\Release_hl2mp\\" /Fd".\Release_hl2mp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\shared\hl2mp\weapon_smg1.cpp /MP 
          weapon_smg1.cpp
          All outputs are up-to-date.
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\MyMod\src\game\client\.\Release_hl2mp\Client HL2MP.dll) does not match the Linker's OutputFile property value (C:\MyMod\src\game\client\Release_hl2mp\Client.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
@@ -541,4 +539,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.75
+Time Elapsed 00:00:04.53

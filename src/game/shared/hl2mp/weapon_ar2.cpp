@@ -19,7 +19,7 @@
 
 #include "weapon_ar2.h"
 #include "effect_dispatch_data.h"
-
+#include "weapon_rpg.h"
 
 // memdbgon must be the last include file in a .cpp file!!!
 #include "tier0/memdbgon.h"
@@ -153,7 +153,6 @@ void CWeaponAR2::DoImpactEffect( trace_t &tr, int nDamageType )
 	data.m_vNormal = tr.plane.normal;
 
 	DispatchEffect( "Explosion", data );//GT35 EXPLOSIONNNNNNNNNNNS
-
 	BaseClass::DoImpactEffect( tr, nDamageType );
 }
 

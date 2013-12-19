@@ -662,7 +662,7 @@ void CBaseEntity::ImpactTrace( trace_t *pTrace, int iDamageType, char *pCustomIm
 	// Send it on its way
 	if ( !pCustomImpactName )
 	{
-		DispatchEffect( "Explosion", data );// gt35 all guns bullet explode now
+		DispatchEffect( "Impact", data );// gt35 all guns bullet explode now
 	}
 	else
 	{

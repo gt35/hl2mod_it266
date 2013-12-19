@@ -33,7 +33,6 @@ public:
 
 	void	ItemPostFrame( void );
 	void	Precache( void );
-	
 	void	SecondaryAttack( void );
 	void	DelayedAttack( void );
 

@@ -50,12 +50,12 @@ public:
 	virtual void Equip( CBaseCombatCharacter *pOwner );
 	bool	Reload( void );
 
-	float	GetFireRate( void ) { return 0.01f; }	// 13.3hz gt35 change fire rate
+	float	GetFireRate( void ) { return 0.02f; }	// 13.3hz gt35 change fire rate
 	Activity	GetPrimaryAttackActivity( void );
 
 	virtual const Vector& GetBulletSpread( void )
 	{
-		static const Vector cone = VECTOR_CONE_5DEGREES;
+		static const Vector cone = VECTOR_CONE_1DEGREES;//reduce recoil
 		return cone;
 	}
 
@@ -178,8 +178,8 @@ bool CWeaponSMG1::Reload( void )
 void CWeaponSMG1::AddViewKick( void )
 {
 	#define	EASY_DAMPEN			0.5f
-	#define	MAX_VERTICAL_KICK	1.0f	//Degrees
-	#define	SLIDE_LIMIT			2.0f	//Seconds
+	#define	MAX_VERTICAL_KICK	0.1f	//Degrees
+	#define	SLIDE_LIMIT			0.1f	//Seconds
 	
 	//Get the view kick
 	CBasePlayer *pPlayer = ToBasePlayer( GetOwner() );

@@ -184,7 +184,7 @@ void CWeaponPistol::DryFire( void )
 	m_flNextPrimaryAttack		= gpGlobals->curtime + SequenceDuration();
 }
 
-void CWeaponPistol::DoImpactEffect( trace_t &tr, int nDamageType ) // gt35 copy paste from ar2 basically to give pistol impact effect
+void CWeaponPistol::DoImpactEffect( trace_t &tr, int nDamageType ) // gt35 added for impact effects
 {
 	CEffectData data;
 

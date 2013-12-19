@@ -30,7 +30,7 @@
 //#define BOLT_MODEL			"models/crossbow_bolt.mdl"
 #define BOLT_MODEL	"models/weapons/w_missile_closed.mdl"
 
-#define BOLT_AIR_VELOCITY	3500
+#define BOLT_AIR_VELOCITY	3500//gt35 super fast bolts
 #define BOLT_WATER_VELOCITY	1500
 #define	BOLT_SKIN_NORMAL	0
 #define BOLT_SKIN_GLOW		1
@@ -260,7 +260,7 @@ void CCrossbowBolt::BoltTouch( CBaseEntity *pOther )
 				data.m_vNormal = vForward;
 				data.m_nEntIndex = tr2.fraction != 1.0f;
 			
-				DispatchEffect( "BoltImpact", data );
+				DispatchEffect( "Explosion", data );//gt35 rambo bolts
 			}
 		}
 		
@@ -320,7 +320,7 @@ void CCrossbowBolt::BoltTouch( CBaseEntity *pOther )
 				data.m_vNormal = vForward;
 				data.m_nEntIndex = 0;
 			
-				DispatchEffect( "BoltImpact", data );
+				DispatchEffect( "Explosion", data );
 				
 				UTIL_ImpactTrace( &tr, DMG_BULLET );
 
